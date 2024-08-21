@@ -1,7 +1,7 @@
 ### Hey there! I'm Dominik!
 
 # 💫 About Me:
-🔭 This year I will be starting college to study computer science and here I share my path through programming.<br>🤝 I am open to various proposals for cooperation or joint programming.<br>🌱 I’m currently learning NestJS, MongoDB and Angular.<br>💬 I like to travel and inform myself on various interesting facts whether technological or scientific from the world.<br>
+🔭 This year I will be starting college to study computer science and here I share my path through programming.<br>🤝 I am open to various proposals for cooperation or joint programming.<br>🌱 I’m currently learning React.<br>💬 I like to travel and inform myself on various interesting facts whether technological or scientific from the world.<br>
 
 
 ## 🌐 Socials:
