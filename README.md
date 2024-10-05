@@ -1,7 +1,15 @@
 ### Hey there! I'm Dominik!
 
 # 💫 About Me:
-🔭 This year I will be starting college to study computer science and here I share my path through programming.<br>🤝 I am open to various proposals for cooperation or joint programming.<br>🌱 I’m currently learning React.<br>💬 I like to travel and inform myself on various interesting facts whether technological or scientific from the world.<br>
+🔭 My name is Dominik, I'm 19 years old and I'm passionate about becoming a
+Web Developer. For the past few months, I have been intensively developing
+my skills in React, after previous experience with Angular. As part of my
+learning, I have already created one larger cryptocurrency project, which has
+given me a solid foundation in the practical application of this technology.
+I have been interested in technology since childhood. At first I explored
+hardware, but over time I discovered that it is software development that
+gives me the most satisfaction. I want to create things that I can be proud of,
+so I decided to develop my skills in this area.
 
 
 ## 🌐 Socials:
