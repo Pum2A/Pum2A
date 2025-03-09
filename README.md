@@ -1,4 +1,4 @@
-
+My site: https://dominikg.vercel.app/
 # 💫 About Me:
  I am a second semester student of Applied Informatics<br> at WSEI in Cracow, Poland. My passion has always been technology and<br> creating my own projects. Currently, I am focusing on<br> developing skills in Next.js and React, while also doing<br> C# language projects as part of my studies. In the past, I have gained<br> experience with Angular. I value continuous development and strive<br> to create innovative solutions
 
