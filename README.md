@@ -1,15 +1,14 @@
 ### Hey there! I'm Dominik!
 
 # 💫 About Me:
-🔭 My name is Dominik, I'm 19 years old and I'm passionate about becoming a
-Web Developer. For the past few months, I have been intensively developing
-my skills in React, after previous experience with Angular. As part of my
-learning, I have already created one larger cryptocurrency project, which has
-given me a solid foundation in the practical application of this technology.
-I have been interested in technology since childhood. At first I explored
-hardware, but over time I discovered that it is software development that
-gives me the most satisfaction. I want to create things that I can be proud of,
-so I decided to develop my skills in this area.
+🔭 My name is Dominik, I'm 20 years old and  I am a second semester student of Applied Informatics
+ at WSEI in Cracow, Poland. My passion has always been technology and
+ creating my own projects. Currently, I am focusing on
+ developing skills in Next.js and React, while also doing
+ C# language projects as part of my studies. In the past, I have gained
+ experience with Angular. I value continuous development and strive
+ to create innovative solutions
+
 
 
 ## 🌐 Socials:
