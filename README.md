@@ -9,8 +9,8 @@ I'm Dominik
 ---
 
 ## 🌐 **Socials**  
-📩 **Email:** [Your Email]  
-💼 **LinkedIn:** [Your LinkedIn]  
+📩 **Email:** [[!Email](mailto:dominik.gadzina1@gmail.com)]
+💼 **LinkedIn:** [[!LinkedIn](https://www.linkedin.com/in/dominik-gadzina)]  
 🔗 **Website:** [![Portfolio](https://img.shields.io/badge/My%20Site-000?style=for-the-badge&logo=vercel&logoColor=white)](https://dominikg.vercel.app/)  
 
 ---
