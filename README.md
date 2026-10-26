@@ -1,16 +1,16 @@
-<img src="assets/header.svg" alt="$ whoami — Dominik Gadzina, software engineer. const dominik = { role: software engineer, full-stack; studying: computer science at WSEI Kraków; coding: 2022 to now; enjoys: backends, clean UI, solving the real problem; building: ScreenSort; status: open to work and collaboration }" width="100%">
+<img src="assets/header.svg" alt="$ whoami — Dominik Gadzina, junior software engineer. Studying applied computer science at UEK Kraków. Builds whole apps: database, backend, UI and installer. Works with Claude Code and Codex and understands every line he ships. Offline: video editing and social media. Speaks Polish and English (B2). Open to work." width="100%">
 
 <p align="center">
 <a href="mailto:dominik.gadzina1@gmail.com"><b>email</b></a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/dominik-gadzina"><b>linkedin</b></a> &nbsp;·&nbsp;
-<a href="https://dominikgadzina.vercel.app/"><b>portfolio</b></a>
+<a href="https://github.com/Pum2A/screensort-releases/releases"><b>screensort</b></a>
 </p>
 
 <br>
 
 <img src="assets/label-journey.svg" alt="git log --reverse" height="36">
 
-<img src="assets/journey.svg" alt="2022: first commit, HTML, CSS and JavaScript, then React, Next.js and Angular. 2024: started computer science at WSEI Kraków, C#, .NET and SQL. 2025: shipped full-stack apps: a booking platform, a DSA trainer and AI recipes. 2026: moved to Java and Spring Boot backends and started building ScreenSort." width="100%">
+<img src="assets/journey.svg" alt="Started with Minecraft mods and plugins in Java, then an IT technical school with own projects, then web apps in React, Next.js and TypeScript, two semesters of computer science at WSEI Kraków, and since 2026 applied computer science at UEK Kraków. Now shipping ScreenSort with about 300 tests on every change." width="100%">
 
 <br>
 
@@ -55,7 +55,7 @@
 
 <img src="assets/label-stack.svg" alt="stack" height="36">
 
-<img src="assets/stack.svg" alt="backend: java, spring boot, postgresql, c#, .net, sql. frontend: typescript, react, next.js, angular, tailwind. tooling: git, docker, github actions, junit, testcontainers." width="100%">
+<img src="assets/stack.svg" alt="languages: java, typescript, sql, python, rust. backend: spring boot, rest, jpa and hibernate, postgresql, flyway, multithreading. frontend: react, tanstack query, zod, next.js. quality: junit 5, testcontainers, github actions, docker, maven, git." width="100%">
 
 <br>
 
