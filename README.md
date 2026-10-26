@@ -1,87 +1,69 @@
-# Hi, I'm Dominik 👋
+<img src="assets/header.svg" alt="$ whoami — Dominik Gadzina, backend, Java and computer vision. Started on the frontend in 2022 with React, Next.js and Angular, then went looking for what happens behind the interface. Now: Java, system design and computer vision." width="100%">
 
-**Backend-minded developer who started on the frontend.** Java · Spring Boot · PostgreSQL · React/TypeScript
+<br>
 
-I started programming in **2022** with React, Next.js and Angular. Over time I got more curious about
-what happens **behind the interface**: how data flows, how systems talk to each other, and how to solve
-problems properly. That pulled me toward **backend development**. Today I mainly work with **Java**,
-system design and computer vision, and I keep the frontend experience I gained along the way.
+<img src="assets/label-now.svg" alt="$ cat ./building-now" height="50">
 
-To me, languages are tools. What I care about is **understanding the problem and finding the right way to solve it**.
+<a href="https://github.com/Pum2A/screensort-releases/releases"><img src="assets/screensort.svg" alt="ScreenSort: a local-first Windows app that turns screenshot chaos into named, sorted copies. Local OCR and a vision model propose names and categories, you approve them in bulk. Java 25, Spring Boot 4, PostgreSQL, React 19, Tauri 2, FastAPI, RapidOCR, Florence-2. Zero uploads." width="100%"></a>
 
-[📩 Email](mailto:dominik.gadzina1@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/dominik-gadzina) · [🔗 Portfolio](https://dominikgadzina.vercel.app/)
-
----
-
-## 🔭 Building now: ScreenSort
-
-<a href="https://github.com/Pum2A/screensort-releases/releases"><img src="assets/screensort-library.png" alt="ScreenSort library: the whole folder on one screen with AI categories and bulk decisions"></a>
-
-**A local-first Windows app that turns a folder of screenshot chaos into named, sorted copies.**
-It reads every image with local OCR and a vision model, proposes a name and a category, and lets you
-approve them one by one or in bulk. Then it writes a verified copy into category folders.
-Nothing is uploaded, and the originals are never touched.
-
-- **Java 25 + Spring Boot 4** backend: background scan jobs, SHA-256 catalog in PostgreSQL, Flyway migrations, versioned decisions, verified copying.
-- **React 19 + TypeScript** UI in a **Tauri 2 (Rust)** shell: dense library, multi-select with a bulk bar, duplicate finder, signed in-app updates.
-- **Python + FastAPI** service running **RapidOCR** and **Florence-2** on the CPU, started on demand by the desktop app.
-- Tested with JUnit 5, Testcontainers, node:test, cargo test and pytest in CI.
+<a href="https://github.com/Pum2A/screensort-releases/releases"><img src="assets/screensort-library.png" alt="ScreenSort library: the whole folder on one screen with AI categories and bulk decisions" width="100%"></a>
 
 <table>
 <tr>
-<td><img src="assets/screensort-review.png" alt="Bulk review with a category pill on every card"></td>
-<td><img src="assets/screensort-duplicates.png" alt="Byte-identical duplicates compared side by side"></td>
+<td width="50%"><img src="assets/screensort-review.png" alt="Bulk review: every waiting proposal with a category pill per card"></td>
+<td width="50%"><img src="assets/screensort-duplicates.png" alt="Duplicates: byte-identical files side by side"></td>
 </tr>
 <tr>
-<td align="center"><sub>Bulk review: keys 1–5 set the category</sub></td>
-<td align="center"><sub>Duplicates: keep one copy, skip the rest</sub></td>
+<td><sub><code>review</code> · every proposal on one screen, keys 1–5 set the category</sub></td>
+<td><sub><code>duplicates</code> · keep one copy, the rest never reach the sorted folder</sub></td>
 </tr>
 </table>
 
-👉 [**Download the Windows preview**](https://github.com/Pum2A/screensort-releases/releases) (the source code is private for now).
+```text
+under the hood
+├── background scan jobs + SHA-256 catalog in PostgreSQL
+├── versioned decisions: a stale form never overwrites a newer one
+├── verified copying: every file re-hashed before it is kept
+├── Rust shell owns the Java, Python and database processes
+├── signed in-app updates
+└── CI: JUnit + Testcontainers · node:test · cargo test · pytest
+```
 
-### Also exploring: RealityDiff
+`❯` [**download the Windows preview**](https://github.com/Pum2A/screensort-releases/releases) &nbsp;·&nbsp; <sub>source is private for now</sub>
 
-An image-based system that compares photos of the same place over time and detects what was
-**added, removed or changed**. Built with Java, OpenCV, Spring Boot and PostgreSQL.
+<br>
 
----
+<img src="assets/label-stack.svg" alt="$ cat stack.ts" height="50">
 
-## 🧰 Tech stack
+<img src="assets/stack.svg" alt="const stack = { backend: java, spring boot, postgresql, flyway, junit 5, testcontainers; vision: opencv, python, fastapi, rapidocr, florence-2; frontend: typescript, react, next.js, angular, tanstack query, tailwind; desktop: tauri, rust; ops: docker, github actions, git }" width="100%">
 
-**Backend** &nbsp;
-![Java](https://img.shields.io/badge/Java-191C1F?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-191C1F?style=flat-square&logo=springboot&logoColor=6DB33F)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-191C1F?style=flat-square&logo=postgresql&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-191C1F?style=flat-square&logo=flyway&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit_5-191C1F?style=flat-square&logo=junit5&logoColor=25A162)
-![Testcontainers](https://img.shields.io/badge/Testcontainers-191C1F?style=flat-square&logo=testcontainers&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-191C1F?style=flat-square&logo=opencv&logoColor=white)
-![Python](https://img.shields.io/badge/Python-191C1F?style=flat-square&logo=python&logoColor=FFD43B)
+<br>
 
-**Frontend** &nbsp;
-![TypeScript](https://img.shields.io/badge/TypeScript-191C1F?style=flat-square&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-191C1F?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-191C1F?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-191C1F?style=flat-square&logo=angular&logoColor=DD0031)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-191C1F?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+<img src="assets/label-projects.svg" alt="$ ls ~/projects" height="50">
 
-**Desktop & tools** &nbsp;
-![Tauri](https://img.shields.io/badge/Tauri-191C1F?style=flat-square&logo=tauri&logoColor=FFC131)
-![Rust](https://img.shields.io/badge/Rust-191C1F?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-191C1F?style=flat-square&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-191C1F?style=flat-square&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-191C1F?style=flat-square&logo=githubactions&logoColor=2088FF)
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/Pum2A/BookSelf"><img src="assets/project-bookself.svg" alt="BookSelf: service booking platform. Next.js 15, React 19, Prisma. Live." width="100%"></a></td>
+<td width="50%"><a href="https://github.com/Pum2A/DSA"><img src="assets/project-dsa.svg" alt="DSA: full-stack app with a Next.js front and a .NET back" width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Pum2A/Foodify"><img src="assets/project-foodify.svg" alt="Foodify: recipes with auth and real-time data. Next.js, Firebase. Live." width="100%"></a></td>
+<td><a href="https://github.com/Pum2A/ai-chat-app"><img src="assets/project-ai-chat.svg" alt="AI Chat App: chat that answers with language models. Next.js, TypeScript. Live." width="100%"></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/Pum2A/angular-zadanie"><img src="assets/project-campaign.svg" alt="Campaign form: create and edit ad campaigns. Angular, TypeScript. Live." width="100%"></a></td>
+<td><a href="https://github.com/Pum2A/minecraft-clone"><img src="assets/project-minecraft.svg" alt="Minecraft clone: Minecraft-style game experiment in C++" width="100%"></a></td>
+</tr>
+</table>
 
----
+<br>
 
-## 📂 Earlier public projects
+<img src="assets/label-contact.svg" alt="$ ping dominik" height="50">
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [BookSelf](https://github.com/Pum2A/BookSelf) · [live](https://bookingfullstack.vercel.app/) | Service booking platform | Next.js 15, React 19, Prisma |
-| [DSA](https://github.com/Pum2A/DSA) | Full-stack app split into a frontend and a backend | Next.js, React 19, .NET |
-| [Foodify](https://github.com/Pum2A/Foodify) · [live](https://my-recipe-app-eta.vercel.app) | Recipe app with auth and real-time data | Next.js, Firebase |
-| [AI Chat App](https://github.com/Pum2A/ai-chat-app) · [live](https://ai-chat-app-blond.vercel.app) | Chat that answers with AI language models | Next.js, TypeScript |
-| [Campaign form](https://github.com/Pum2A/angular-zadanie) · [live](https://angular-zadanie-f54w.vercel.app) | Create and edit ad campaigns (recruitment task) | Angular, TypeScript |
-| [Minecraft clone](https://github.com/Pum2A/minecraft-clone) | Minecraft-style game experiment | C++ |
+```text
+email     dominik.gadzina1@gmail.com
+linkedin  linkedin.com/in/dominik-gadzina
+web       dominikgadzina.vercel.app
+```
+
+[email](mailto:dominik.gadzina1@gmail.com) · [linkedin](https://www.linkedin.com/in/dominik-gadzina) · [portfolio](https://dominikgadzina.vercel.app/)
