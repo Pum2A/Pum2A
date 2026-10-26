@@ -1,76 +1,87 @@
 # Hi, I'm Dominik 👋
 
-I started programming in **2022**, initially focusing on frontend development and building web applications with technologies like React, Next.js and Angular.
+**Backend-minded developer who started on the frontend.** Java · Spring Boot · PostgreSQL · React/TypeScript
 
-Over time, I became much more interested in what happens **behind the interface** — how data flows, how systems communicate, how things work under the hood, and most importantly, how to solve problems properly.
+I started programming in **2022** with React, Next.js and Angular. Over time I got more curious about
+what happens **behind the interface**: how data flows, how systems talk to each other, and how to solve
+problems properly. That pulled me toward **backend development**. Today I mainly work with **Java**,
+system design and computer vision, and I keep the frontend experience I gained along the way.
 
-That curiosity naturally pushed me toward **backend development**.
+To me, languages are tools. What I care about is **understanding the problem and finding the right way to solve it**.
 
-Today, I'm mainly working with **Java** and exploring backend engineering, system design and computer vision — while keeping the frontend experience I gained along the way.
-
-I don't really see programming languages as the goal anymore. They're tools.  
-What interests me most is **understanding the problem and figuring out the right way to solve it**.
-
----
-
-## 🔭 Currently working on
-
-### RealityDiff
-
-An image-based system for detecting changes in physical spaces.
-
-The idea is to compare images of the same place over time and detect what may have been **added, removed or changed**.
-
-Currently working with:
-
-`Java` `OpenCV` `Spring Boot` `PostgreSQL` `Docker` `REST APIs`
+[📩 Email](mailto:dominik.gadzina1@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/dominik-gadzina) · [🔗 Portfolio](https://dominikgadzina.vercel.app/)
 
 ---
 
-## 💻 Tech Stack
+## 🔭 Building now: ScreenSort
 
-### Backend & Java
+<a href="https://github.com/Pum2A/screensort-releases/releases"><img src="assets/screensort-library.png" alt="ScreenSort library: the whole folder on one screen with AI categories and bulk decisions"></a>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge)
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Testcontainers](https://img.shields.io/badge/Testcontainers-3C3C3C?style=for-the-badge&logo=testcontainers&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
+**A local-first Windows app that turns a folder of screenshot chaos into named, sorted copies.**
+It reads every image with local OCR and a vision model, proposes a name and a category, and lets you
+approve them one by one or in bulk. Then it writes a verified copy into category folders.
+Nothing is uploaded, and the originals are never touched.
 
-### Frontend
+- **Java 25 + Spring Boot 4** backend: background scan jobs, SHA-256 catalog in PostgreSQL, Flyway migrations, versioned decisions, verified copying.
+- **React 19 + TypeScript** UI in a **Tauri 2 (Rust)** shell: dense library, multi-select with a bulk bar, duplicate finder, signed in-app updates.
+- **Python + FastAPI** service running **RapidOCR** and **Florence-2** on the CPU, started on demand by the desktop app.
+- Tested with JUnit 5, Testcontainers, node:test, cargo test and pytest in CI.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+<table>
+<tr>
+<td><img src="assets/screensort-review.png" alt="Bulk review with a category pill on every card"></td>
+<td><img src="assets/screensort-duplicates.png" alt="Byte-identical duplicates compared side by side"></td>
+</tr>
+<tr>
+<td align="center"><sub>Bulk review: keys 1–5 set the category</sub></td>
+<td align="center"><sub>Duplicates: keep one copy, skip the rest</sub></td>
+</tr>
+</table>
 
-### Tools
+👉 [**Download the Windows preview**](https://github.com/Pum2A/screensort-releases/releases) (the source code is private for now).
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+### Also exploring: RealityDiff
 
----
-
-## 🌐 Find me here
-
-📩 [Email](mailto:dominik.gadzina1@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/dominik-gadzina)  
-🔗 [Portfolio](https://dominikgadzina.vercel.app/)
+An image-based system that compares photos of the same place over time and detects what was
+**added, removed or changed**. Built with Java, OpenCV, Spring Boot and PostgreSQL.
 
 ---
 
-## 📊 GitHub
+## 🧰 Tech stack
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pum2A&show_icons=true&theme=tokyonight&hide_border=true)
+**Backend** &nbsp;
+![Java](https://img.shields.io/badge/Java-191C1F?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-191C1F?style=flat-square&logo=springboot&logoColor=6DB33F)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-191C1F?style=flat-square&logo=postgresql&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-191C1F?style=flat-square&logo=flyway&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit_5-191C1F?style=flat-square&logo=junit5&logoColor=25A162)
+![Testcontainers](https://img.shields.io/badge/Testcontainers-191C1F?style=flat-square&logo=testcontainers&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-191C1F?style=flat-square&logo=opencv&logoColor=white)
+![Python](https://img.shields.io/badge/Python-191C1F?style=flat-square&logo=python&logoColor=FFD43B)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pum2A&layout=compact&theme=tokyonight&hide_border=true)
+**Frontend** &nbsp;
+![TypeScript](https://img.shields.io/badge/TypeScript-191C1F?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-191C1F?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-191C1F?style=flat-square&logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-191C1F?style=flat-square&logo=angular&logoColor=DD0031)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-191C1F?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Pum2A&color=blueviolet&style=flat)
+**Desktop & tools** &nbsp;
+![Tauri](https://img.shields.io/badge/Tauri-191C1F?style=flat-square&logo=tauri&logoColor=FFC131)
+![Rust](https://img.shields.io/badge/Rust-191C1F?style=flat-square&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-191C1F?style=flat-square&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-191C1F?style=flat-square&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-191C1F?style=flat-square&logo=githubactions&logoColor=2088FF)
+
+---
+
+## 📂 Earlier public projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [BookSelf](https://github.com/Pum2A/BookSelf) · [live](https://bookingfullstack.vercel.app/) | Service booking platform | Next.js 15, React 19, Prisma |
+| [DSA](https://github.com/Pum2A/DSA) | Full-stack app split into a frontend and a backend | Next.js, React 19, .NET |
+| [Foodify](https://github.com/Pum2A/Foodify) · [live](https://my-recipe-app-eta.vercel.app) | Recipe app with auth and real-time data | Next.js, Firebase |
+| [AI Chat App](https://github.com/Pum2A/ai-chat-app) · [live](https://ai-chat-app-blond.vercel.app) | Chat that answers with AI language models | Next.js, TypeScript |
+| [Campaign form](https://github.com/Pum2A/angular-zadanie) · [live](https://angular-zadanie-f54w.vercel.app) | Create and edit ad campaigns (recruitment task) | Angular, TypeScript |
+| [Minecraft clone](https://github.com/Pum2A/minecraft-clone) | Minecraft-style game experiment | C++ |
